@@ -18,7 +18,7 @@ The user is given the option of implementing their own loader (implement the int
 
 The schema loading util is using loaders, and implemented using [chain-of-responsibility pattern](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern). 
 
-Specifiying the loader is not necessary. The user need only provide the inputs. The utils will be detected it automatically.
+Specifiying the loader is not necessary. The user need only provide the inputs. The utils will detect it automatically.
 
 Usage:
 
